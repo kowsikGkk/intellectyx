@@ -1,0 +1,89 @@
+.ant-alert-banner
+{
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 099;
+}
+section{
+    height: 100%;
+}
+.logoutButton{
+    padding: 11px;
+    float: right;
+}
+.label{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    margin: 15px 0px;
+    display: flex;
+}
+.submitButton{
+    width: 120px;
+    height: 36px;
+    margin-top: 15px;
+    background: #2dc364;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logoText{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.ant-table-wrapper{
+    width: 70%;
+    margin-right: 20px;
+}
+.ant-alert{
+    height: 50px;
+    border-radius: 0px;
+    width: 1366px;
+    background-color: #FF5555;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.ant-alert-success{
+    background: #17C707;
+}
+
+.ant-alert-message{
+    font-size: 16px;
+    color:#ffffff;
+}
+.ant-alert-icon{
+    visibility: hidden;
+}
+.ant-alert .ant-alert-close-icon{
+    color: white;
+    font-size: 20px;
+    top:unset;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    .ant-alert-message{
+        font-size: 12px;
+    }
+    .ant-alert .ant-alert-close-icon{
+        font-size: 15px;
+    }
+}
